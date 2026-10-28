@@ -1,0 +1,14 @@
+CARPLUS - Proyecto Android (WebView)
+
+COMPILAR (necesita Android SDK + Gradle 8.9+ + JDK 17):
+  gradle assembleRelease
+  -> app/build/outputs/apk/release/app-release.apk
+
+SIN INSTALAR NADA: sube esta carpeta a un repositorio de GitHub (rama main);
+la pestaña Actions > "Compilar APK" genera el APK descargable.
+
+O abre la carpeta con Android Studio > Build > Build APK(s).
+
+La llave de firma (app/carplus.jks, clave carplus2026) es necesaria para publicar
+actualizaciones que se instalen sobre la versión anterior. Guárdala.
+El HTML de la app está en app/src/main/assets/index.html.
